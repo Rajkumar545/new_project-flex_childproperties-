@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*img{
+            width:90%;
+            height:500px;
+        }*/
+        .container1{
+         padding:20px 20px;
+
+        }
+
+        .child1{
+            display:flex;
+            gap:20px;
+            padding:10px 30px 10px 30px;
+            
+            
+        }
+       .child1a{
+        flex-basis: 50%;
+        }
+       .child1b{
+        flex-basis:50%;
+        padding:30px;
+       }
+       .oneandhalf {
+        line-height: 1.5em;
+    }
+        .twoandhalf{
+            line-height:2.0em;
+            color:dimgray;
+        }
+        .child2{
+            display:flex;
+            gap:60px;
+            padding:10px 30px 10px 30px;
+        }
+        .child2a{
+            flex-basis:50%;
+            padding-right:0px;
+        }
+        .child2b{
+            flex-basis:50%;
+           
+        }
+        input:focus{
+            border:none;
+            outline:none;
+        }
+        .you{
+            display:flex;
+            background-color:bisque;
+            justify-content: space-between;
+            top:0px;
+            position:fixed;
+            width: 100%;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+        }
+        .container2{
+            padding: 20px 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="you">
+        <div class="container2">
+        <b>Tasty Restaurant</b></div>
+        <div class="container1">
+            <nav> 
+          <a href="#about" >About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact" >Contact</a></nav> 
+        </div></div>
+   <div class="child1">
+    <div class="child1a">
+        <img src="tablesetting2.jpg" width="600" height="600"></div>
+    <div class="child1b" ><center> <h2 id="about">About Catering</h2><br><br></center>
+    <center><p>Tradition since 1889</p></center>
+        <p class="oneandhalf">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+
+        </p> <p class="oneandhalf">   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    </div>
+   </div>
+   <hr>
+   <div class="child2">
+    <div class="child2a">
+        <center><h2 id="menu">Our Menu</h2></center>
+        <p class="oneandhalf">Bread Basket</p>
+        <p class="twoandhalf">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+        <p class="oneandhalf">Honey Almond Granola with Fruits</p>
+        <p class="twoandhalf">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+        <p class="oneandhalf">Belgian Waffle</p>
+        <p class="twoandhalf">Vanilla flavored batter with malted flour 7.50</p><br>
+        <p class="oneandhalf">Scrambled eggs</p>
+        <p class="twoandhalf"> Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+        <p class="oneandhalf"> Blueberry Pancakes</p>
+        <p class="twoandhalf">With syrup, butter and lots of berries 8.50</p><br>
+       </div>
+   <div class="child2b">
+    <img src="tablesetting3.jpg" height="600" width="600">
+   </div> 
+   </div>
+   <hr>
+
+<div class="child3">
+    <h2 id="contact">Contact</h2>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <b><p style=color:green;> Service, 42nd Living St, 43043 New York, NY</p></b>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:
+</p>
+    
+  <p> <input type="text" placeholder="Name" ></p> <hr>
+<p>    <input type="number" placeholder="How many people"></p> <hr>
+<p>    <input type="datetime-local" placeholder="2025-01-09 8:00 pm"></p> <hr>
+<p>   <input type="text" placeholder="message/special requirement"></p> <hr>
+    <input type="button" value="send message">
+        
+</div>
+</body>
+</html>
